@@ -1,0 +1,49 @@
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+title: Ran Tan - Software Engineer
+description: Machine Learning, Large Scale Data Management, Recommender Systems, Computer Vision, and Robotics
+
+author:
+  name: Ran Tan
+  avatar: /assets/images/profile.png
+  bio: Software Engineer with expertise in ML, Data, Recommender Systems, CV, and Robotics
+  location: GitHub
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/ran-tan
+
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/ran-tan
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+include:
+  - _pages
