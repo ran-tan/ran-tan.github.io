@@ -7,6 +7,6 @@ Gemfile.lock
 
 # OpenSpec and AI assistant configuration
 AGENTS.md
-.github
+.github/prompts
 openspec/
 .opencode/
